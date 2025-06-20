@@ -8,7 +8,7 @@ create blackbox csv log file with  an easy and simple cpp class.
 
 int main() {
     // Create a logger that writes to ./output by default
-    BlackBoxLogger logger;
+    BlackBoxLogger logger = BlackBoxLogger("home/.../repo/logs");
 
     // First row: add two fields
     logger.insert("altitude", 100.0);
