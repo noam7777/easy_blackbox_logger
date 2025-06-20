@@ -4,9 +4,9 @@ create blackbox csv log file with  an easy and simple cpp class.
 
 # usage example:
 
-#include "BlackBoxLogger.h"
+    #include "BlackBoxLogger.h"
 
-int main() {
+    int main() {
     // Create a logger that writes to ./output by default
     BlackBoxLogger logger = BlackBoxLogger("home/.../repo/logs");
 
